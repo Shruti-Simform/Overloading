@@ -1,5 +1,4 @@
 public class CalculateSum {
-    //                  ----- CONSTRUCTOR OVERLOADING -----
     CalculateSum() {
         System.out.println("--- Calculate Sum ---");
     }
@@ -19,11 +18,7 @@ public class CalculateSum {
     CalculateSum(double a, int b) {
         System.out.println("--- Calculate Sum of a double number and an integer ---");
     }
-
-
-    //                  ----- THREE WAYS OF METHOD OVERLOADING -----
-
-    //CHANGE IN NUMBER OF ARGUMENTS
+    
     int addition(int a, int b) {
         return a + b;
     }
@@ -32,12 +27,10 @@ public class CalculateSum {
         return a + b + c;
     }
 
-    //CHANGE IN DATATYPE
     double addition(double a, double b) {
         return a + b;
     }
 
-    //CHANGE IN ORDER OF DATATYPE
     double addition(int a, double b) {
         return a + b;
     }
